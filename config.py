@@ -41,28 +41,44 @@ PLATFORMS = {
         ],
         'splash': [
             {
-                'filename': 'screen-iphone-portrait.png',
-                'sizes': [ (320, 480) ]
+                'filename': 'Default-667h.png',
+                'sizes': [ (445, 667) ]
             },
             {
-                'filename': 'screen-iphone-portrait-2x.png',
-                'sizes': [ (640, 960) ]
+                'filename': 'Default-736h.png',
+                'sizes': [ (490, 736) ]
             },
             {
-                'filename': 'screen-iphone-portrait-3x.png',
-                'sizes': [ (1242, 2208) ]
+                'filename': 'Default-Landscape-736h.png',
+                'sizes': [ (490, 736) ]
             },
             {
-                'filename': 'screen-iphone-portrait-568h-2x.png',
+                'filename': 'Default-568h@2x~iphone.png',
                 'sizes': [ (640, 1136) ]
             },
             {
-                'filename': 'screen-ipad-portrait.png',
+                'filename': 'Default-Landscape@2x~ipad',
+                'sizes': [ (2048, 1536) ]
+            },
+            {
+                'filename': 'Default-Landscape~ipad',
+                'sizes': [ (1024, 768) ]
+            },
+            {
+                'filename': 'Default-Portrait@2x~ipad',
+                'sizes': [ (1536, 2048) ]
+            },
+            {
+                'filename': 'Default-Portrait~ipad',
                 'sizes': [ (768, 1024) ]
             },
             {
-                'filename': 'screen-ipad-landscape.png',
-                'sizes': [ (1024, 768) ]
+                'filename': 'Default@2x~iphone.png',
+                'sizes': [ (640, 960) ]
+            },
+            {
+                'filename': 'Default~iphone.png',
+                'sizes': [ (320, 480) ]
             }
         ]
     },
