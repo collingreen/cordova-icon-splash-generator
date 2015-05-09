@@ -15,7 +15,7 @@ PLATFORMS = {
         ],
         'splash': [
             {
-                'filename': 'screen-{dpi_level}-portrait.png',
+                'filename': 'screen-port-{dpi_level}.png',
                 'sizes': [
                     (320, 426, 'ldpi'),
                     # (320, 470, 'mdpi'),
@@ -24,6 +24,18 @@ PLATFORMS = {
                     (320, 480, 'mdpi'),
                     (480, 800, 'hdpi'),
                     (720, 1280, 'xhdpi'),
+                ]
+            },
+            {
+                'filename': 'screen-land-{dpi_level}.png',
+                'sizes': [
+                    (426, 320, 'ldpi'),
+                    # (320, 470, 'mdpi'),
+                    # (480, 640, 'hdpi'),
+                    # (720, 960, 'xhdpi'),
+                    (480, 320, 'mdpi'),
+                    (800, 480, 'hdpi'),
+                    (1280, 720, 'xhdpi'),
                 ]
             }
         ]
