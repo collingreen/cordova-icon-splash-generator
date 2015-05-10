@@ -44,12 +44,40 @@ PLATFORMS = {
         'icon': [
             {
                 'filename': 'icon-{size}.png',
-                'sizes': [57, 72]
+                'sizes': [50, 57, 60, 72, 76, 120, 152]
+            },
+            {
+                'filename': 'icon-small.png',
+                'sizes': [29]
+            },
+            {
+                'filename': 'icon-small@2x.png',
+                'sizes': [58]
             },
             {
                 'filename': 'icon-{halfsize}-2x.png',
                 'sizes': [114, 144]
-            }
+            },
+            {
+                'filename': 'icon-50@2x.png',
+                'sizes': [100]
+            },
+            {
+                'filename': 'icon-60@2x.png',
+                'sizes': [120]
+            },
+            {
+                'filename': 'icon-60@3x.png',
+                'sizes': [180]
+            },
+            {
+                'filename': 'icon-72@2x.png',
+                'sizes': [144]
+            },
+            {
+                'filename': 'icon-76@2x.png',
+                'sizes': [152]
+            },
         ],
         'splash': [
             {
