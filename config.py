@@ -44,7 +44,7 @@ PLATFORMS = {
         'icon': [
             {
                 'filename': 'icon-{size}.png',
-                'sizes': [50, 57, 60, 72, 76, 120, 152]
+                'sizes': [29, 40, 50, 57, 58, 60, 70, 72, 76, 80, 87, 120, 140, 152]
             },
             {
                 'filename': 'icon-small.png',
